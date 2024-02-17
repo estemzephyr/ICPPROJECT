@@ -1,0 +1,17 @@
+[package]
+name = "ICPPROJECT"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+candid = "0.10.3"
+image = "0.24.8"
+qrcode-generator = "4.1.9"
+dfx = "1.0.0-beta"
+ic-cdk = { version = "0.12.1" }
+ic-cdk-timers = "0.6.0"
+anyhow = "1.0.79"
+colorgrad = "0.6.2"
+serde = "1.0.196"
