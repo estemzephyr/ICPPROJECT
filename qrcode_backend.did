@@ -1,0 +1,13 @@
+type Options = record{
+add_logo:bool;
+add_gradient:bool;
+add:transparency:opt bool;
+};
+type QrError = record{
+message:Text;
+};
+type QrResult = variant{
+Image:blob;
+Err:QrError;
+};
+service
